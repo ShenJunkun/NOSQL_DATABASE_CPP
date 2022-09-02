@@ -44,3 +44,5 @@ int main() {
     t1.join();
     t2.join();
 }
+
+//g++ -o weak_ptr -std=c++11 weak_ptr.cpp -lpthread
