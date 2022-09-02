@@ -33,3 +33,5 @@ int main() {
     t2.join();
     return 0;
 }
+
+//g++ -o shared_ptr -std=c++11  shared_ptr.cpp -lpthread
